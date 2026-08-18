@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: #333333; /* Dark background color */
+}
+
+.title-label {
+    -fx-text-fill: white; /* White text color for titles */
+}
+
+.wordle-panel {
+    -fx-background-color: white; /* White background color for panels */
+}
+
+.letter-button {
+    -fx-background-color: #333333; /* Dark background color for letter buttons */
+    -fx-text-fill: white; /* White text color for letter buttons */
+}
+
+.styled-button {
+    -fx-background-color: #333333; /* Dark background color for styled buttons */
+    -fx-text-fill: white; /* White text color for styled buttons */
+}
+
+.answer-label {
+    -fx-text-fill: white; /* White text color for answer label */
+}

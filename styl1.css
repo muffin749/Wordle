@@ -1,0 +1,73 @@
+.letter-button {
+    -fx-font-size: 18px;
+    -fx-background-color: #FFFFFF; /* White */
+    -fx-border-color: #000000; /* Black */
+    -fx-border-width: 1px;
+    -fx-min-width: 30px; /* Minimum width */
+    -fx-min-height: 30px; /* Minimum height */
+}
+
+.letter-button:hover {
+    -fx-background-color: #E0E0E0; /* Light Gray */
+}
+
+.letter-label {
+    -fx-font-color: #000000; 
+    -fx-font-size: 24px; /* Increase font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000; /* White text color */
+    -fx-min-width: 50px; /* Minimum width */
+    -fx-min-height: 50px; /* Minimum height */
+    -fx-alignment: center;
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.wordle-panel {
+    -fx-background-color: #F0F8FF; /* Alice Blue */
+    -fx-border-color: #000000; /* Black */
+    -fx-border-width: 2px;
+    -fx-min-width: 50px; /* Minimum width */
+    -fx-min-height: 50px; /* Minimum height */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+}
+
+.wordle-panel.yellow {
+    -fx-background-color: yellow; /* Change to yellow */
+}
+
+.wordle-panel.green {
+    -fx-background-color: green; /* Change to green */
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.styled-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border-color: #388E3C; /* Darker green border color */
+    -fx-border-width: 2px;
+    -fx-min-width: 120px; /* Minimum width */
+    -fx-min-height: 40px; /* Minimum height */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.styled-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.letters-grid {
+    -fx-background-color: #FFFFFF; /* Light background color for letters grid */
+}
+
+.dark-mode .letters-grid {
+    -fx-background-color: #333333; /* Dark background color for letters grid in dark mode */
+}
+
+
+
+
